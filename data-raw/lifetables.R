@@ -18,6 +18,8 @@ get_lifetables <- function(year){
 
 years <- seq(1900, 2010, by = 10)
 lifetables <- tbl_df(rbind_all(lapply(years, get_lifetables)))
+
+readr::write_csv(lifetables, "data-raw/csv/lifetables.csv")
 save(lifetables, file = 'data/lifetables.rdata', compress = 'xz')
 
 # lifetables_2014 = subset(lifetables, x + year == 2014)
