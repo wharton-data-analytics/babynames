@@ -26,4 +26,5 @@ births <- births %>%
   mutate(year = as.integer(year),
          births = as.integer(births))
 
+readr::write_csv(births, "data-raw/csv/births.csv")
 save(births, file = 'data/births.rdata', compress = 'xz')

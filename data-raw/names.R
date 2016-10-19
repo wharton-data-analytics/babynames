@@ -27,4 +27,6 @@ babynames <- one %>%
   mutate(prop = n / n_all) %>%
   select(-n_all)
 
+write_csv(babynames, "data-raw/csv/babynames.csv")
+
 devtools::use_data(babynames, compress = "xz", overwrite = T)

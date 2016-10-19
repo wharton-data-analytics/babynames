@@ -19,5 +19,5 @@ applicants <- ssa %>%
   arrange(year, sex) %>%
   mutate(n_all = as.integer(n_all))
 
-write_csv(applicants, "data-raw/applicants.csv")
+write_csv(applicants, "data-raw/csv/applicants.csv")
 devtools::use_data(applicants, overwrite = TRUE)
