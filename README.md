@@ -43,3 +43,5 @@ head(baby_names)
 ```
 
 Alternatively, if you look under `data-raw/csv` in this repository, you will find the raw csv files for this dataset, if you want to analyze this data with a different environment.
+
+Babynames csv: https://cdn.rawgit.com/wharton-data-analytics/babynames/3192856738dee4a91bfc7d320355daa5ae428c17/data-raw/csv/babynames.csv
