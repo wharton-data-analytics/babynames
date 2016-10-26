@@ -1,6 +1,6 @@
 # babynames
 
-[![Travis-CI Build Status](https://travis-ci.org/hadley/babynames.svg?branch=master)](https://travis-ci.org/hadley/babynames)
+[![Travis-CI Build Status](https://travis-ci.org/wharton-data-analytics/babynames.svg?branch=master)](https://travis-ci.org/wharton-data-analytics/babynames)
 
 ## Overview
 
